@@ -1,0 +1,3 @@
+realpath
+uptime
+date
