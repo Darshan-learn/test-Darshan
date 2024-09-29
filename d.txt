@@ -1,1 +1,5 @@
 Hi Darshan 
+realpath
+pwd
+uptime
+date
