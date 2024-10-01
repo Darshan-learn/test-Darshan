@@ -43,15 +43,5 @@ pipeline{
                 '''
             }
         }
-        stage('current process')
-        {
-            steps
-            { 
-                sh '''
-                echo 'current process'
-                top
-                '''
-            }
-        }
     }
 }
