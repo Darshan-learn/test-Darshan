@@ -32,5 +32,26 @@ pipeline{
                 '''
             }
         }
+        stage('date')
+        {
+            steps
+            { 
+                sh '''
+                echo 'date'
+                date
+                uptime
+                '''
+            }
+        }
+        stage('current process')
+        {
+            steps
+            { 
+                sh '''
+                echo 'current process'
+                top
+                '''
+            }
+        }
     }
 }
