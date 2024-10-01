@@ -1,3 +1,0 @@
-realpath
-uptime
-date
