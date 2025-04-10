@@ -1,0 +1,5 @@
+Hii Darshan 
+realpath
+pwd
+uptime
+date
